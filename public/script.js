@@ -27,7 +27,7 @@ function showSlides1() {
   slideIndex1++;
   if (slideIndex1 > slides1.length) {slideIndex1 = 1;}
   slides1[slideIndex1-1].style.display = "block";
-  setTimeout(showSlides1, 3000); // Change image every 2 seconds
+  setTimeout(showSlides1, 10000); // Change image every 2 seconds
 }
 
 let slideIndex2 = 0;
@@ -42,7 +42,7 @@ function showSlides2() {
   slideIndex2++;
   if (slideIndex2 > slides2.length) {slideIndex2 = 1;}
   slides2[slideIndex2-1].style.display = "block";
-  setTimeout(showSlides2, 3000); // Change image every 2 seconds
+  setTimeout(showSlides2, 10000); // Change image every 2 seconds
 }
 
 let slideIndex3 = 0;
@@ -57,5 +57,5 @@ function showSlides3() {
   slideIndex3++;
   if (slideIndex3 > slides3.length) {slideIndex3 = 1;}
   slides3[slideIndex3-1].style.display = "block";
-  setTimeout(showSlides3, 3000); // Change image every 2 seconds
+  setTimeout(showSlides3, 10000); // Change image every 2 seconds
 }
